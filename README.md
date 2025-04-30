@@ -162,8 +162,16 @@ This is example code intended for educational purposes. In a production environm
 
 ## License
 
-[Your license information here]
+This project is licensed under the Apache License 2.0 - see the [LICENSE](LICENSE) file for details.
 
 ## Contributing
 
-[Your contribution guidelines here]
+We welcome contributions from the community! If you'd like to contribute:
+
+1. Check existing issues or create a new one to discuss your proposed changes
+2. Fork the repository
+3. Create a feature branch from the master branch
+4. Make your changes and ensure tests pass
+5. Submit a pull request referencing the issue it addresses
+
+For more detailed guidance, see [CONTRIBUTING.md](CONTRIBUTING.md).
