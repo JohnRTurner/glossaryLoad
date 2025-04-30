@@ -1,0 +1,5 @@
+pandas>=1.3.0
+requests>=2.25.0
+typing>=3.7.4
+acryl-datahub[datahub-rest]>=1.0.0.2
+gql>=3.0.0

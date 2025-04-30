@@ -1,0 +1,7 @@
+Category,Business Glossary Term,Business Definition,Technical Owner,Data Steward,Business Owner,Tag,Database.Schema.Table,Field Name
+Commercial Loan - Glossary,Accrual Basis,Day-Count Convention to determine how interest accrues overtime on a loan. Its defines how days are counted between two dates and how this affects the calculation of interest.,john.turner@datahub.com,,,PII;Banking,DB_RAW.SCH_IBS.LOAN_NOTE,NOTE_BASIS
+Commercial Loan - Glossary,Actual Interest Rate,A nominal interest rate is the stated or advertised interest rate on a loan,john.turner@datahub.com,,,Financial,DB_RAW.SCH_IBS.LOAN_NOTE,NOTE_ORIG_INT_RATE
+Commercial Loan - Glossary,Anchor Tenant,Refers to a prominent and well-established tenant who occupies a large portion of a property.,john.turner@datahub.com,a@b.com,,Real Estate,DB_RAW.SCH_IBS.LOAN_COLLATERAL,LOAN_COLL_NOTE_1
+Commercial Loan - Glossary,Anchor Tenant,Refers to a prominent and well-established tenant who occupies a large portion of a property.,john.turner@datahub.com,,,Real Estate,banking.public.account_overview
+Commercial Loan - Glossary,Anchor Tenant,Refers to a prominent and well-established tenant who occupies a large portion of a property.,john.turner@datahub.com,,,Real Estate,banking.public.account_overview,account_type
+Commercial Loan - Glossary,Anchor Tenant,Refers to a prominent and well-established tenant who occupies a large portion of a property.,john.turner@datahub.com,,,Real Estate,banking.public.account_overview,customer_namex
