@@ -33,6 +33,15 @@ cd datahub-glossary-manager
 pip install -r requirements.txt
 ```
 
+## Deployment
+
+For detailed deployment instructions using Docker, Docker Compose, or Kubernetes, please refer to the [Deployment Guide](DEPLOYMENT.md).
+
+Quick deployment options:
+- **Docker**: Use the provided `docker-build-run.sh` script
+- **Docker Compose**: Run with `docker-compose up`
+- **Kubernetes**: Apply the Kubernetes manifests in the `k8s-deployment.yaml` file
+
 ## Configuration
 
 The script can be configured in two ways:

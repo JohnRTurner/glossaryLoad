@@ -1,0 +1,12 @@
+services:
+  glossary-manager:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    volumes:
+      - ./data:/data
+      - ~/.datahub:/root/.datahub
+    environment:
+      - DATAHUB_GMS_URL=${DATAHUB_GMS_URL}
+      - DATAHUB_TOKEN=${DATAHUB_TOKEN}
+    command: --csv-file /data/glossary.csv

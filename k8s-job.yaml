@@ -1,0 +1,24 @@
+apiVersion: batch/v1
+kind: Job
+metadata:
+  name: datahub-glossary-manager-job
+spec:
+  template:
+    spec:
+      containers:
+        - name: glossary-manager
+          image: datahub-glossary-manager:latest
+          args: ["--csv-file", "/data/glossary.csv"]
+          volumeMounts:
+            - name: data-volume
+              mountPath: /data
+          envFrom:
+            - configMapRef:
+                name: datahub-glossary-manager-config
+            - secretRef:
+                name: datahub-glossary-manager-secrets
+      volumes:
+        - name: data-volume
+          persistentVolumeClaim:
+            claimName: datahub-glossary-manager-data
+      restartPolicy: OnFailure
